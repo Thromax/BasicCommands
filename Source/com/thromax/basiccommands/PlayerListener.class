@@ -49,10 +49,6 @@ public class PlayerListener implements Listener {
         if (p.hasPermission("bc.back.*") || p.hasPermission("bc.all.*") || p.isOp()) {
             Main.lastDeath.put(p.getName(), p.getLocation());
             p.sendMessage(config.getString("Messages.NewDeathLocation"));
-          /*  if (config.getInt("Configs.BackUses") > 0) {
-                Main.backTimes.put(p.getName(), 0);
-                p.sendMessage("backTimes vale ahora "+Main.backTimes);
-            }*/
 
         }
     }
