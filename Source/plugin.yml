@@ -48,7 +48,3 @@ commands:
     back:
         description: Teleports you to your last death localization/Te teletransporta a tu ultima ubicacion de muerte
         usage: /back
-        
-    invedit:
-        description: Displays a player's inventory to edit it / Muestra el inventario de un jugador para editarlo
-        usage: /invedit [player]
