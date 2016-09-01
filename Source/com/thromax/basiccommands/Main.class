@@ -21,8 +21,6 @@ public class Main extends JavaPlugin {
     public static FileConfiguration config;
     public static HashMap<String, Location> lastDeath = new HashMap<>();
 
-   // public static HashMap<String, backUses> backTimes = new HashMap<>();
-
     @Override
     public void onLoad() {
         this.getLogger().info((getConfig().getString("Messages.System.Load")));
@@ -52,7 +50,6 @@ public class Main extends JavaPlugin {
         this.getCommand("night").setExecutor(new TimeWeatherCommands(this));
         this.getCommand("version").setExecutor(new Comando(this));
         this.getCommand("back").setExecutor(new Comando(this));
-        this.getCommand("invedit").setExecutor(new AdminTools(this));
 
         this.getLogger().info((getConfig().getString("Messages.System.Start")));
 
