@@ -1,6 +1,6 @@
 EN
 ==
-Hi fellaws! This is my fist Bukkit/Spigot 's plugin, I hope you like it.
+Hi fellaws! This is my first Bukkit/Spigot 's plugin, I hope you like it.
 You can download the source code and help on this project by editing it and adding new cool things, the source code is located on "Source".
 
 Also you can always download it on the BasicCommands Bukkit's page: https://dev.bukkit.org/bukkit-plugins/thromax-basiccommands .
