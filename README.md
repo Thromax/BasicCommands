@@ -1,10 +1,10 @@
 ![Banner](https://user-images.githubusercontent.com/20110319/96116220-684cd780-0ee8-11eb-8e8e-7371d6c72e3a.png)
-<h2><img src="https://user-images.githubusercontent.com/20110319/96116246-73076c80-0ee8-11eb-9ba6-5a0dcea9dc5a.png" width=60>(EN) English</h2>
+<h2><img src="https://user-images.githubusercontent.com/20110319/96505298-36c06d00-1256-11eb-99ff-cc239b3625eb.png" width=40px style="float:left;">(EN) English</h2>
 
 This is my first Bukkit/Spigot plugin, just a simple toolkit.
 You can always contribute by adding new functionality, fixing issues or typos.
 
-Also you can always download it on the [BasicCommands Bukkit page](https://dev.bukkit.org/bukkit-plugins/thromax-basiccommands "BasicCommands on Bukkit") or by using the [releases menu](.../releases "Releases").
+Also you can always download it on the [BasicCommands CurseForge page](https://www.curseforge.com/minecraft/bukkit-plugins/thromax-basiccommands/ "BasicCommands on Bukkit") or by using the [releases menu](.../releases "Releases").
 
 Thanks for your time!! :D
 
@@ -41,15 +41,15 @@ Thanks for your time!! :D
 | `bc.gm.night`  | Allows players to change time to night |
 
 
-<h2><img src="https://user-images.githubusercontent.com/20110319/96116246-73076c80-0ee8-11eb-9ba6-5a0dcea9dc5a.png" width=60>(ES) Español </h2>
+<h2><img src="https://user-images.githubusercontent.com/20110319/96505298-36c06d00-1256-11eb-99ff-cc239b3625eb.png" width=40px style="float:left;">(ES) Español </h2>
 Este es mi primer plugin para Bukkit/Spigot, un simple kit de herramientas.
 Puedes colaborar al proyecto añadiendo nuevas funciones, arreglando bugs o errores tipográficos.
 
-Siempre puedes descargar la última versión compilada desde la [página de Bukkit de BasicCommands](https://dev.bukkit.org/bukkit-plugins/thromax-basiccommands "BasicCommands en Bukkit") o mediante el [menú de versiones](.../releases "Releases").
+Siempre puedes descargar la última versión compilada desde la [página de CurseForge de BasicCommands](https://www.curseforge.com/minecraft/bukkit-plugins/thromax-basiccommands/ "BasicCommands en CurseForge") o mediante el [menú de versiones](.../releases "Releases").
 
 Gracias por vuestro tiempo!! :D
 
-| Commando  | Descripción  |
+| Comando  | Descripción  |
 | ------------ | ------------ |
 | `heal [target]`  | Cura al jugador  |
 | `feed [target]`  | Rellena la barra de hambre del jugador  |
