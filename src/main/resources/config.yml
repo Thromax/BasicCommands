@@ -1,0 +1,285 @@
+# ---------- BasicCommands Config File ----------
+#  BasicCommands by Thromax at (https://www.curseforge.com/minecraft/bukkit-plugins/thromax-basiccommands)
+
+# Remember that you can use colors with these codes:
+# %black%           BLACK        |   %dark_gray%    DARK GRAY   |    %random%        RANDOM
+# %dark_blue%       DARK BLUE    |   %blue%         BLUE        |    %bold%          BOLD
+# %dark_green%      DARK GREEN   |   %green%        GREEN       |    %strike%        STRIKE THROUGH
+# %dark_aqua%       DARK AQUA    |   %aqua%         AQUA        |    %underline%     UNDERLINED
+# %dark_red%        DARK RED     |   %red%          RED         |    %italic%        ITALIC
+# %dark_purple%     DARK PURPLE  |   %pink%         PINK
+# %gold%            GOLD(Orange) |   %yellow%       YELLOW
+# %gray%            GRAY/GRIS    |   %white%        WHITE
+
+Configs:
+  # Back Cooldown
+  # Time (in seconds) that players will have to wait between /back uses (0 to remove cooldown)
+  BackCooldown: 0
+
+Messages:
+  # Welcome Message
+  # Message players will receive every time they connect to the server.
+  # %target% = Player's name
+  Welcome: "%gold%Welcome to the server, %dark_aqua%%target%!"
+
+  # Teleported Message
+  # Message players will receive every time they successfully get teleported by the plugin
+  # %sender% = Player's name
+  # %target% = Location
+  Teleported: "%gold%Pew!! swoosh!! You've %dark_aqua%teleported%gold% (%target%)!!"
+
+  # New Death Location Message
+  # Message players will receive every time they die to remind them they can use /back command to return
+  # %sender% = Player's name
+  # %target% = Location
+  NewDeathLocation: "%gold%You can use %dark_aqua%/back %gold%to return to your death location"
+
+  GameModes:
+    # Gamemode Changed to Survival Message
+    # Message players will receive when changing their own gamemode to survival through /gm
+    # %sender%/%target% = Player's name
+    SurvivalSelf: "%gold%Your gamemode was set to %dark_aqua%survival"
+
+    # Gamemode Changed to Survival By Player Message
+    # Message players will receive when their gamemode gets changed to survival by another player using /gm
+    # %sender% = Command sender's player name
+    # %target% = Gamemode-changed player's name
+    SurvivalByPlayer: "%blue%%sender% %gold%has changed your gamemode to %dark_aqua%survival"
+
+    # Gamemode Changed to Survival By Console Message
+    # Message players will receive when their gamemode gets changed to survival by the server console using /gm
+    # %sender% = Console's player name
+    # %target% = Gamemode-changed player's name
+    SurvivalByConsole: "%dark_purple%Server %gold%has changed your gamemode to %dark_aqua%survival"
+
+    # Another Player's Gamemode Changed to Survival
+    # Message players will receive when they change another player's gamemode to survival using /gm
+    # %sender% = Command sender's player name
+    # %target% = Gamemode-changed player's name
+    SurvivalPlayer: "%gold%You've changed %blue%%target%%gold%'s gamemode to %dark_aqua%survival"
+
+    # Gamemode Changed to Creative Message
+    # Message players will receive when changing their own gamemode to creative through /gm
+    # %sender%/%target% = Player's name
+    CreativeSelf: "%gold%Your gamemode was set to %dark_aqua%creative"
+
+    # Gamemode Changed to Creative By Player Message
+    # Message players will receive when their gamemode gets changed to creative by another player using /gm
+    # %sender% = Command sender's player name
+    # %target% = Gamemode-changed player's name
+    CreativeByPlayer: "%blue%%sender% %gold%has changed your gamemode to %dark_aqua%creative"
+
+    # Gamemode Changed to Creative By Console Message
+    # Message players will receive when their gamemode gets changed to creative by the server console using /gm
+    # %sender% = Console's player name
+    # %target% = Gamemode-changed player's name
+    CreativeByConsole: "%dark_purple%Server %gold%has changed your gamemode to %dark_aqua%creative"
+
+    # Another Player's Gamemode Changed to Creative
+    # Message players will receive when they change another player's gamemode to creative using /gm
+    # %sender% = Command sender's player name
+    # %target% = Gamemode-changed player's name
+    CreativePlayer: "%gold%You've changed %blue%%target%%gold%'s gamemode to %dark_aqua%creative"
+
+    # Gamemode Changed to Adventure Message
+    # Message players will receive when changing their own gamemode to adventure through /gm
+    # %sender%/%target% = Player's name
+    AdventureSelf: "%gold%Your gamemode was set to %dark_aqua%adventure"
+
+    # Gamemode Changed to Adventure By Player Message
+    # Message players will receive when their gamemode gets changed to adventure by another player using /gm
+    # %sender% = Command sender's player name
+    # %target% = Gamemode-changed player's name
+    AdventureByPlayer: "%blue%%sender% %gold%has changed your gamemode to %dark_aqua%adventure"
+
+    # Gamemode Changed to Survival By Adventure Message
+    # Message players will receive when their gamemode gets changed to adventure by the server console using /gm
+    # %sender% = Console's player name
+    # %target% = Gamemode-changed player's name
+    AdventureByConsole: "%dark_purple%Server %gold%has changed your gamemode to %dark_aqua%adventure"
+
+    # Another Player's Gamemode Changed to Adventure
+    # Message players will receive when they change another player's gamemode to adventure using /gm
+    # %sender% = Command sender's player name
+    # %target% = Gamemode-changed player's name
+    AdventurePlayer: "%gold%You've changed %blue%%target%%gold%'s gamemode to %dark_aqua%adventure"
+
+    # Gamemode Changed to Spectator Message
+    # Message players will receive when changing their own gamemode to spectator through /gm
+    # %sender%/%target% = Player's name
+    SpectatorSelf: "%gold%Your gamemode was set to %dark_aqua%spectator"
+
+    # Gamemode Changed to Spectator By Player Message
+    # Message players will receive when their gamemode gets changed to spectator by another player using /gm
+    # %sender% = Command sender's player name
+    # %target% = Gamemode-changed player's name
+    SpectatorByPlayer: "%blue%%sender% %gold%has changed your gamemode to %dark_aqua%spectator"
+
+    # Gamemode Changed to Spectator By Console Message
+    # Message players will receive when their gamemode gets changed to spectator by the server console using /gm
+    # %sender% = Console's player name
+    # %target% = Gamemode-changed player's name
+    SpectatorByConsole: "%dark_purple%Server %gold%has changed your gamemode to %dark_aqua%spectator"
+
+    # Another Player's Gamemode Changed to Spectator
+    # Message players will receive when they change another player's gamemode to spectator using /gm
+    # %sender% = Command sender's player name
+    # %target% = Gamemode-changed player's name
+    SpectatorPlayer: "%gold%You've changed %blue%%target%%gold%'s gamemode to %dark_aqua%spectator"
+
+  HealingAndFeeding:
+    # Self-Healed Message
+    # Message players will receive when they heal themselves using /heal
+    # %sender%/%target% = Player's name
+    HealedSelf: "%gold%Your wounds have been cured"
+
+    # Healed by Player Message
+    # Message players will receive when healed by another player through /heal
+    # %sender% = Command sender's player name
+    # %target% = Healed player's name
+    HealedByPlayer: "%blue%%sender% %gold%healed you"
+
+    # Healed by Console Message
+    # Message players will receive when healed by the server console through /heal
+    # %sender% = Console's player name
+    # %target% = Healed player's name
+    HealedByConsole: "%dark_purple%Server %gold%healed you"
+
+    # Healed Player Message
+    # Message players will receive when healing another player using /heal
+    # %sender% = Command sender's player name
+    # %target% = Healed player's name
+    HealedPlayer: "%blue%%target% %gold%has been healed"
+
+    # Self-fed message
+    # Message players will receive when they feed themselves using /feed
+    # %sender%/%target% = Player's name
+    FedSelf: "%gold%You're no longer hungry"
+
+    # Fed by player message
+    # Message players will receive when fed by another player through /feed
+    # %sender% = Command sender's player name
+    # %target% = Fed player's name
+    FedByPlayer: "%blue%%sender% %gold%gave you something to eat"
+
+    # Fed by Console Message
+    # Message players will receive when fed by the server console through /feed
+    # %sender% = Console's player name
+    # %target% = Fed player's name
+    FedByConsole: "%dark_purple%Server %gold%gave you something to eat"
+
+    # Fed Player Message
+    # Message players will receive when feeding another player using /feed
+    # %sender% = Command sender's player name
+    # %target% = Fed player's name
+    FedPlayer: "%blue%%target% %gold%is no longer hungry"
+
+  Weather:
+    # Dawn Current World Message
+    # Message players will receive when setting their current world time to dawn using /dawn
+    # %sender% = Player's name
+    # %target% = World name
+    DawnCurrentWorld: "%gold%Time has been set to %blue%dawn %gold%on the current world"
+
+    # Dawn On World Message
+    # Message players will receive when setting a world time to dawn using /dawn
+    # %sender% = Player's name
+    # %target% = World name
+    DawnOnWorld: "%gold%Time has been set to %blue%dawn %gold% on %dark_purple%'%target%' %gold%world"
+
+    # Day Current World Message
+    # Message players will receive when setting their current world time to day using /day
+    # %sender% = Player's name
+    # %target% = World name
+    DayCurrentWorld: "%gold%Time has been set to %blue%day %gold%on the current world"
+
+    # Day On World Message
+    # Message players will receive when setting a world time to day using /day
+    # %sender% = Player's name
+    # %target% = World name
+    DayOnWorld: "%gold%Time has been set to %blue%day %gold% on %dark_purple%'%target%' %gold%world"
+
+    # Dusk Current World Message
+    # Message players will receive when setting their current world time to dusk using /dusk
+    # %sender% = Player's name
+    # %target% = World name
+    DuskCurrentWorld: "%gold%Time has been set to %blue%dusk %gold%on the current world"
+
+    # Dusk On World Message
+    # Message players will receive when setting a world time to dusk using /dusk
+    # %sender% = Player's name
+    # %target% = World name
+    DuskOnWorld: "%gold%Time has been set to %blue%dusk %gold% on %dark_purple%'%target%' %gold%world"
+
+    # Night Current World Message
+    # Message players will receive when setting their current world time to night using /night
+    # %sender% = Player's name
+    # %target% = World name
+    NightCurrentWorld: "%gold%Time has been set to %blue%night %gold%on the current world"
+
+    # Night On World Message
+    # Message players will receive when setting a world time to night using /night
+    # %sender% = Player's name
+    # %target% = World name
+    NightOnWorld: "%gold%Time has been set to %blue%night %gold% on %dark_purple%'%target%' %gold%world"
+
+  System:
+    # Load Message
+    # Message that will be shown in the console on plugin load
+    Load: "%blue%Plugin loaded"
+
+    # Start Message
+    # Message that will be shown in the console on plugin start
+    Start: "%blue%Plugin has been started"
+
+    # Disable Message
+    # Message that will be shown in the console on plugin stop
+    Disable: "%blue%Plugin stopped"
+
+Alerts:
+  # No Permission Alert
+  # Message players will receive when trying to issue a command they lack permissions for
+  # %sender% = Command issuer's name
+  Permission: "%red%You don't have permissions to use this command!"
+
+  # Too Many Arguments Alert
+  # Message that will be displayed when inputting too many arguments on a BasicCommands command
+  # %sender% = Command issuer's name
+  TooManyArgs: "%red%Too many arguments!"
+
+  # Command Cooldown Alert
+  # Message that will be displayed when using a limited command too quickly
+  # %sender% = Command issuer's name
+  Cooldown: "%red%You must wait %blue%%target% %red%seconds before using this command again!"
+
+  # Not a Player Alert
+  # Message that will be displayed when a non-player command issuer attempts to use a player-only command
+  # %sender% = Command issuer's name
+  NotPlayer: "%red%This command can only be used by a player!"
+
+  # Not Last Death Localization Alert
+  # Message that will be shown to players when using /back without any previous death location entry registered
+  # %sender% = Command issuer's name
+  NoLastDeath: "%red%There's no previous death locations!"
+
+  # Invalid GameMode Alert
+  # Message that will be displayed when inputting an invalid gamemode
+  # %sender% = Command issuer's name
+  # %target% = GameMode issued
+  InvalidGM: "%red%%target% is not a valid gamemode!"
+
+  # Invalid Player Alert
+  # Message that will be displayed when inputting an invalid player
+  # %sender% = Command issuer's name
+  # %target% = Player issued
+  InvalidPlayer: "%red%%target% is not a valid player!"
+
+  # Invalid World Alert
+  # Message that will be displayed when inputting an invalid world
+  # %sender% = Command issuer's name
+  # %target% = World issued
+  InvalidWorld: "%red%%target% is not a valid world!"
+
+# ---------------------------------------------------------------------------------------------------------------------------------------------------
+# DO NOT EDIT THIS!!
+version: @@BC_VERSION@@

@@ -1,0 +1,137 @@
+name: BasicCommands
+author: Thromax
+version: @@BC_VERSION@@
+api-version: @@API_VERSION@@
+main: com.thromax.basiccommands.BasicCommands
+description: Quick commands to manage your server the easy and comfortable way.
+commands:
+
+  heal:
+    description: Heals a player.
+    usage: /heal [player]
+
+  feed:
+    description: Feeds a player.
+    usage: /feed [player]
+
+  gm:
+    description: Changes player's gamemode.
+    usage: /gm (gamemode or 1-3) [player]
+
+  dawn:
+    description: It turns dawn on the selected world.
+    usage: /dawn [world name or index]
+  day:
+    description: It turns day on the selected world.
+    usage: /day [world name or index]
+
+  dusk:
+    description: It turns dusk on the selected world.
+    usage: /dusk [world name or index]
+
+  night:
+    description: It turns night on the selected world.
+    usage: /night [world name or index]
+
+  back:
+    description: Teleports you to your last death location.
+    usage: /back
+
+permissions:
+  # Global permissions
+  bc.all.*:
+    description: Gives players full access to everything within the plugin.
+    default: op
+    children:
+      bc.heal.*: true
+      bc.feed.*: true
+      bc.gm.*: true
+      bc.time.*: true
+      bc.back.*: true
+
+  # Command permissions
+  bc.heal.*:
+    description: Allows players to heal themselves and others using /heal.
+    default: op
+    children:
+      bc.heal.self: true
+
+  bc.heal.self:
+    description: Allows players to heal themselves using /heal.
+    default: op
+
+  bc.feed.*:
+    description: Allows players to feed themselves and others using /feed.
+    default: op
+    children:
+      bc.feed.self: true
+
+  bc.feed.self:
+    description: Allows players to feed themselves using /feed.
+    default: op
+
+  bc.gm.*:
+    description: Allows players to set their own and other players' gamemode to any value using /gm.
+    default: op
+    children:
+      bc.gm.any: true
+
+  bc.gm.any:
+    description: Allows players to change to any gamemode using /gm.
+    default: op
+    children:
+      bc.gm.survival: true
+      bc.gm.creative: true
+      bc.gm.adventure: true
+      bc.gm.spectator: true
+
+  bc.gm.survival:
+    description: Allows players to change to survival mode using /gm.
+    default: op
+
+  bc.gm.creative:
+    description: Allows players to change to creative mode using /gm.
+    default: op
+
+  bc.gm.adventure:
+    description: Allows players to change to adventure mode using /gm.
+    default: op
+
+  bc.gm.spectator:
+    description: Allows players to change to spectator mode using /gm.
+    default: op
+
+  bc.time.*:
+    description: Allows players to set time to any hour using BasicCommands time commands.
+    default: op
+    children:
+      bc.time.dawn: true
+      bc.time.day: true
+      bc.time.dusk: true
+      bc.time.night: true
+
+  bc.time.dawn:
+    description: Allows players to set time to dawn using /dawn.
+    default: op
+
+  bc.time.day:
+    description: Allows players to set time to day using /day.
+    default: op
+
+  bc.time.dusk:
+    description: Allows players to set time to dusk using /dusk.
+    default: op
+
+  bc.time.night:
+    description: Allows players to set time to night using /night.
+    default: op
+
+  bc.back.*:
+    description: Allows players to return to their last death location using /back ignoring time limits.
+    default: op
+    children:
+      bc.back.limited: true
+
+  bc.back.limited:
+    description: Allows players to return to their last death using /back during the period established BasicCommands settings.
+    default: true
