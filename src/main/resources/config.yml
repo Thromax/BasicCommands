@@ -236,49 +236,49 @@ Messages:
     # Message that will be shown in the console on plugin stop
     Disable: "%blue%Plugin stopped"
 
-Alerts:
-  # No Permission Alert
-  # Message players will receive when trying to issue a command they lack permissions for
-  # %sender% = Command issuer's name
-  Permission: "%red%You don't have permissions to use this command!"
-
-  # Too Many Arguments Alert
-  # Message that will be displayed when inputting too many arguments on a BasicCommands command
-  # %sender% = Command issuer's name
-  TooManyArgs: "%red%Too many arguments!"
-
-  # Command Cooldown Alert
-  # Message that will be displayed when using a limited command too quickly
-  # %sender% = Command issuer's name
-  Cooldown: "%red%You must wait %blue%%target% %red%seconds before using this command again!"
-
-  # Not a Player Alert
-  # Message that will be displayed when a non-player command issuer attempts to use a player-only command
-  # %sender% = Command issuer's name
-  NotPlayer: "%red%This command can only be used by a player!"
-
-  # Not Last Death Localization Alert
-  # Message that will be shown to players when using /back without any previous death location entry registered
-  # %sender% = Command issuer's name
-  NoLastDeath: "%red%There's no previous death locations!"
-
-  # Invalid GameMode Alert
-  # Message that will be displayed when inputting an invalid gamemode
-  # %sender% = Command issuer's name
-  # %target% = GameMode issued
-  InvalidGM: "%red%%target% is not a valid gamemode!"
-
-  # Invalid Player Alert
-  # Message that will be displayed when inputting an invalid player
-  # %sender% = Command issuer's name
-  # %target% = Player issued
-  InvalidPlayer: "%red%%target% is not a valid player!"
-
-  # Invalid World Alert
-  # Message that will be displayed when inputting an invalid world
-  # %sender% = Command issuer's name
-  # %target% = World issued
-  InvalidWorld: "%red%%target% is not a valid world!"
+  Alerts:
+    # No Permission Alert
+    # Message players will receive when trying to issue a command they lack permissions for
+    # %sender% = Command issuer's name
+    Permission: "%red%You don't have permissions to use this command!"
+  
+    # Too Many Arguments Alert
+    # Message that will be displayed when inputting too many arguments on a BasicCommands command
+    # %sender% = Command issuer's name
+    TooManyArgs: "%red%Too many arguments!"
+  
+    # Command Cooldown Alert
+    # Message that will be displayed when using a limited command too quickly
+    # %sender% = Command issuer's name
+    Cooldown: "%red%You must wait %blue%%target% %red%seconds before using this command again!"
+  
+    # Not a Player Alert
+    # Message that will be displayed when a non-player command issuer attempts to use a player-only command
+    # %sender% = Command issuer's name
+    NotPlayer: "%red%This command can only be used by a player!"
+  
+    # Not Last Death Localization Alert
+    # Message that will be shown to players when using /back without any previous death location entry registered
+    # %sender% = Command issuer's name
+    NoLastDeath: "%red%There's no previous death locations!"
+  
+    # Invalid GameMode Alert
+    # Message that will be displayed when inputting an invalid gamemode
+    # %sender% = Command issuer's name
+    # %target% = GameMode issued
+    InvalidGM: "%red%%target% is not a valid gamemode!"
+  
+    # Invalid Player Alert
+    # Message that will be displayed when inputting an invalid player
+    # %sender% = Command issuer's name
+    # %target% = Player issued
+    InvalidPlayer: "%red%%target% is not a valid player!"
+  
+    # Invalid World Alert
+    # Message that will be displayed when inputting an invalid world
+    # %sender% = Command issuer's name
+    # %target% = World issued
+    InvalidWorld: "%red%%target% is not a valid world!"
 
 # ---------------------------------------------------------------------------------------------------------------------------------------------------
 # DO NOT EDIT THIS!!

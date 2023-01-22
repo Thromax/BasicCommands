@@ -25,12 +25,12 @@ public class Utils {
      * @return Parsed configuration string
      */
     public static String configStringParser(String configPath, boolean ansiMode, String senderName, String target) {
-        if (configPath != null) {
+        if (configPath != null && config.getString(configPath) != null) {
             String conf = colorStringParser(config.getString(configPath), ansiMode);
             conf = conf.replaceAll(SENDER_NAME_PLACEHOLDER, senderName);
             conf = conf.replaceAll(TARGET_PLACEHOLDER, target);
             return conf;
-        } else return "Null";
+        } else return colorStringParser("%red%Missing message! Is config.yml valid?");
     }
 
     /**
