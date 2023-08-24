@@ -4,7 +4,7 @@
 Just a simple toolkit designed to be as flexible and customizable as possible.
 You can always contribute by creating a ticket, tickets can be about adding new functionality or fixing issues or typos.
 
-Also, you can always download BasicCommands on the [BasicCommands CurseForge page](https://www.curseforge.com/minecraft/bukkit-plugins/thromax-basiccommands/ "BasicCommands on Bukkit") or by using the [releases menu](.../releases "Releases").
+Also, you can always download BasicCommands on the [BasicCommands CurseForge page](https://www.curseforge.com/minecraft/bukkit-plugins/thromax-basiccommands/ "BasicCommands on Bukkit") or by using the [releases menu](../../releases "Releases").
 
 ### Commands
 | Command  | Description  |
